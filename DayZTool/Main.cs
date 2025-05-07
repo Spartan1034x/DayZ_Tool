@@ -1,17 +1,25 @@
 using System.Diagnostics;
+using DayZLootEditor;
+using WeatherEditor;
 
 namespace DayZTool
 {
     public partial class Home : Form
     {
+        frmMain lootEditorForm;
+        WeatherMain weatherEditorForm;
+
         public Home()
         {
             InitializeComponent();
+            // Initialize the forms
+            lootEditorForm = new frmMain();
+            weatherEditorForm = new WeatherMain();
         }
 
 
         private void Home_Load(object sender, EventArgs e)
-        {
+        { 
             InitializeControls();
         }
 
@@ -24,11 +32,27 @@ namespace DayZTool
         private void InitializeControls()
         {
             // Create button for Loot Editor
-            CreateButton("btnLootEditor", "Spawn Loot Editor", 152, 459, (s, e) => { /* Event handler here */ MessageBox.Show("GG", "Clicked"); });
+            CreateButton("btnLootEditor", "Spawn Loot Editor", 152, 459, (s, e) => { 
+                if (lootEditorForm.IsDisposed)
+                {
+                    lootEditorForm = new frmMain();
+                }
+
+                lootEditorForm.Show();
+            });
+
             // Create button for Weather Editor
-            CreateButton("btnWeatherEditor", "Weather Editor", 407, 459, (s, e) => { /* Event handler here */ MessageBox.Show("GG", "Clicked"); });
+            CreateButton("btnWeatherEditor", "Weather Editor", 407, 459, (s, e) => {
+                if (weatherEditorForm.IsDisposed)
+                {
+                    weatherEditorForm = new WeatherMain();
+                }
+                weatherEditorForm.Show();
+            });
+
             // Create button for ...
             CreateButton("tbd", "Coming Soon...", 662, 459, (s, e) => { /* Event handler here */ MessageBox.Show("Coming Soon!", "Info", MessageBoxButtons.OK, MessageBoxIcon.Asterisk); });
+
             // Create button for ...
             CreateButton("tbd1", "Coming Soon...", 917, 459, (s, e) => { /* Event handler here */ MessageBox.Show("Coming Soon!", "Info", MessageBoxButtons.OK, MessageBoxIcon.Asterisk); });
 

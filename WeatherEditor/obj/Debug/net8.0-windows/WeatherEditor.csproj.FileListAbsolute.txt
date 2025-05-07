@@ -1,0 +1,15 @@
+C:\Users\Spart\Desktop\Dayz\DayZ_Tool\WeatherEditor\bin\Debug\net8.0-windows\WeatherEditor.deps.json
+C:\Users\Spart\Desktop\Dayz\DayZ_Tool\WeatherEditor\bin\Debug\net8.0-windows\WeatherEditor.dll
+C:\Users\Spart\Desktop\Dayz\DayZ_Tool\WeatherEditor\bin\Debug\net8.0-windows\WeatherEditor.pdb
+C:\Users\Spart\Desktop\Dayz\DayZ_Tool\WeatherEditor\obj\Debug\net8.0-windows\WeatherEditor.WeatherMain.resources
+C:\Users\Spart\Desktop\Dayz\DayZ_Tool\WeatherEditor\obj\Debug\net8.0-windows\WeatherEditor.csproj.GenerateResource.cache
+C:\Users\Spart\Desktop\Dayz\DayZ_Tool\WeatherEditor\obj\Debug\net8.0-windows\WeatherEditor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Spart\Desktop\Dayz\DayZ_Tool\WeatherEditor\obj\Debug\net8.0-windows\WeatherEditor.AssemblyInfoInputs.cache
+C:\Users\Spart\Desktop\Dayz\DayZ_Tool\WeatherEditor\obj\Debug\net8.0-windows\WeatherEditor.AssemblyInfo.cs
+C:\Users\Spart\Desktop\Dayz\DayZ_Tool\WeatherEditor\obj\Debug\net8.0-windows\WeatherEditor.csproj.CoreCompileInputs.cache
+C:\Users\Spart\Desktop\Dayz\DayZ_Tool\WeatherEditor\obj\Debug\net8.0-windows\WeatherEditor.sourcelink.json
+C:\Users\Spart\Desktop\Dayz\DayZ_Tool\WeatherEditor\obj\Debug\net8.0-windows\WeatherEditor.dll
+C:\Users\Spart\Desktop\Dayz\DayZ_Tool\WeatherEditor\obj\Debug\net8.0-windows\refint\WeatherEditor.dll
+C:\Users\Spart\Desktop\Dayz\DayZ_Tool\WeatherEditor\obj\Debug\net8.0-windows\WeatherEditor.pdb
+C:\Users\Spart\Desktop\Dayz\DayZ_Tool\WeatherEditor\obj\Debug\net8.0-windows\ref\WeatherEditor.dll
+C:\Users\Spart\Desktop\Dayz\DayZ_Tool\WeatherEditor\obj\Debug\net8.0-windows\WeatherEditor.Properties.Resources.resources

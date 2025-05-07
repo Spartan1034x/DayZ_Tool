@@ -55,12 +55,12 @@
             linkLabel1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             linkLabel1.LinkBehavior = LinkBehavior.HoverUnderline;
             linkLabel1.LinkColor = Color.FromArgb(128, 128, 255);
-            linkLabel1.Location = new Point(974, 640);
+            linkLabel1.Location = new Point(1029, 640);
             linkLabel1.Name = "linkLabel1";
-            linkLabel1.Size = new Size(218, 28);
+            linkLabel1.Size = new Size(163, 28);
             linkLabel1.TabIndex = 1;
             linkLabel1.TabStop = true;
-            linkLabel1.Text = "Program: Spartan1034x";
+            linkLabel1.Text = "By: Spartan1034x";
             linkLabel1.LinkClicked += linkLabel1_LinkClicked;
             // 
             // Home

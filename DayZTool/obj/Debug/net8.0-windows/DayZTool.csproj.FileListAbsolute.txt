@@ -16,3 +16,12 @@ C:\Users\Spart\Desktop\Dayz\DayZ_Tool\DayZTool\obj\Debug\net8.0-windows\refint\D
 C:\Users\Spart\Desktop\Dayz\DayZ_Tool\DayZTool\obj\Debug\net8.0-windows\DayZTool.pdb
 C:\Users\Spart\Desktop\Dayz\DayZ_Tool\DayZTool\obj\Debug\net8.0-windows\DayZTool.genruntimeconfig.cache
 C:\Users\Spart\Desktop\Dayz\DayZ_Tool\DayZTool\obj\Debug\net8.0-windows\ref\DayZTool.dll
+C:\Users\Spart\Desktop\Dayz\DayZ_Tool\DayZTool\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\Spart\Desktop\Dayz\DayZ_Tool\DayZTool\bin\Debug\net8.0-windows\DayZLootEditor.pdb
+C:\Users\Spart\Desktop\Dayz\DayZ_Tool\DayZTool\bin\Debug\net8.0-windows\Newtonsoft.Json.xml
+C:\Users\Spart\Desktop\Dayz\DayZ_Tool\DayZTool\obj\Debug\net8.0-windows\DayZTool.csproj.AssemblyReference.cache
+C:\Users\Spart\Desktop\Dayz\DayZ_Tool\DayZTool\obj\Debug\net8.0-windows\DayZTool.csproj.Up2Date
+C:\Users\Spart\Desktop\Dayz\DayZ_Tool\DayZTool\bin\Debug\net8.0-windows\DayZLootEditor.dll
+C:\Users\Spart\Desktop\Dayz\DayZ_Tool\DayZTool\bin\Debug\net8.0-windows\DayZLootEditor.dll.config
+C:\Users\Spart\Desktop\Dayz\DayZ_Tool\DayZTool\bin\Debug\net8.0-windows\WeatherEditor.dll
+C:\Users\Spart\Desktop\Dayz\DayZ_Tool\DayZTool\bin\Debug\net8.0-windows\WeatherEditor.pdb

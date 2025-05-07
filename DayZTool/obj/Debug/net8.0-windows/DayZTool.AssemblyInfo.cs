@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DayZTool")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6d53b03dfb187b5f794f202adf031037742b445")]
 [assembly: System.Reflection.AssemblyProductAttribute("DayZTool")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DayZTool")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

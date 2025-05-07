@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Spart\\Desktop\\Dayz\\DayZ_Tool\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6A65DED6-F684-4101-AFE6-ED298273DE73}|DayZTool\\DayZTool.csproj|c:\\users\\spart\\desktop\\dayz\\dayz_tool\\dayztool\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A65DED6-F684-4101-AFE6-ED298273DE73}|DayZTool\\DayZTool.csproj|solutionrelative:dayztool\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A65DED6-F684-4101-AFE6-ED298273DE73}|DayZTool\\DayZTool.csproj|c:\\users\\spart\\desktop\\dayz\\dayz_tool\\dayztool\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6A65DED6-F684-4101-AFE6-ED298273DE73}|DayZTool\\DayZTool.csproj|solutionrelative:dayztool\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A65DED6-F684-4101-AFE6-ED298273DE73}|DayZTool\\DayZTool.csproj|c:\\users\\spart\\desktop\\dayz\\dayz_tool\\dayztool\\homepagebuttons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A65DED6-F684-4101-AFE6-ED298273DE73}|DayZTool\\DayZTool.csproj|solutionrelative:dayztool\\homepagebuttons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A65DED6-F684-4101-AFE6-ED298273DE73}|DayZTool\\DayZTool.csproj|c:\\users\\spart\\desktop\\dayz\\dayz_tool\\dayztool\\rotatedlabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A65DED6-F684-4101-AFE6-ED298273DE73}|DayZTool\\DayZTool.csproj|solutionrelative:dayztool\\rotatedlabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1641D695-F615-4907-B494-5AFDE4897A7A}|WeatherEditor\\WeatherEditor.csproj|c:\\users\\spart\\desktop\\dayz\\dayz_tool\\weathereditor\\weathermain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1641D695-F615-4907-B494-5AFDE4897A7A}|WeatherEditor\\WeatherEditor.csproj|solutionrelative:weathereditor\\weathermain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,53 +26,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RotatedLabel.cs",
-              "DocumentMoniker": "C:\\Users\\Spart\\Desktop\\Dayz\\DayZ_Tool\\DayZTool\\RotatedLabel.cs",
-              "RelativeDocumentMoniker": "DayZTool\\RotatedLabel.cs",
-              "ToolTip": "C:\\Users\\Spart\\Desktop\\Dayz\\DayZ_Tool\\DayZTool\\RotatedLabel.cs",
-              "RelativeToolTip": "DayZTool\\RotatedLabel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T15:27:46.617Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomePageButtons.cs",
-              "DocumentMoniker": "C:\\Users\\Spart\\Desktop\\Dayz\\DayZ_Tool\\DayZTool\\HomePageButtons.cs",
-              "RelativeDocumentMoniker": "DayZTool\\HomePageButtons.cs",
-              "ToolTip": "C:\\Users\\Spart\\Desktop\\Dayz\\DayZ_Tool\\DayZTool\\HomePageButtons.cs",
-              "RelativeToolTip": "DayZTool\\HomePageButtons.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T14:50:57.118Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Main.cs",
-              "DocumentMoniker": "C:\\Users\\Spart\\Desktop\\Dayz\\DayZ_Tool\\DayZTool\\Main.cs",
-              "RelativeDocumentMoniker": "DayZTool\\Main.cs",
-              "ToolTip": "C:\\Users\\Spart\\Desktop\\Dayz\\DayZ_Tool\\DayZTool\\Main.cs",
-              "RelativeToolTip": "DayZTool\\Main.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAwwBwAAAA1AAAAAAAAAA==",
+              "Title": "WeatherMain.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Spart\\Desktop\\Dayz\\DayZ_Tool\\WeatherEditor\\WeatherMain.cs",
+              "RelativeDocumentMoniker": "WeatherEditor\\WeatherMain.cs",
+              "ToolTip": "C:\\Users\\Spart\\Desktop\\Dayz\\DayZ_Tool\\WeatherEditor\\WeatherMain.cs [Design]",
+              "RelativeToolTip": "WeatherEditor\\WeatherMain.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T14:41:06.642Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Main.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Spart\\Desktop\\Dayz\\DayZ_Tool\\DayZTool\\Main.cs",
-              "RelativeDocumentMoniker": "DayZTool\\Main.cs",
-              "ToolTip": "C:\\Users\\Spart\\Desktop\\Dayz\\DayZ_Tool\\DayZTool\\Main.cs [Design]",
-              "RelativeToolTip": "DayZTool\\Main.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T15:12:56.061Z",
+              "WhenOpened": "2025-05-07T21:39:04.903Z",
               "EditorCaption": " [Design]"
             }
           ]

@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DayZTool", "DayZTool\DayZTool.csproj", "{6A65DED6-F684-4101-AFE6-ED298273DE73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DayZLootEditor", "..\DayZ-Spawn-Editor-Git-Repo\DayZLootEditor\DayZLootEditor.csproj", "{903600AA-6EBA-40F3-A0B7-C7B98493D85E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherEditor", "WeatherEditor\WeatherEditor.csproj", "{1641D695-F615-4907-B494-5AFDE4897A7A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{6A65DED6-F684-4101-AFE6-ED298273DE73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A65DED6-F684-4101-AFE6-ED298273DE73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A65DED6-F684-4101-AFE6-ED298273DE73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{903600AA-6EBA-40F3-A0B7-C7B98493D85E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{903600AA-6EBA-40F3-A0B7-C7B98493D85E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{903600AA-6EBA-40F3-A0B7-C7B98493D85E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{903600AA-6EBA-40F3-A0B7-C7B98493D85E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1641D695-F615-4907-B494-5AFDE4897A7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1641D695-F615-4907-B494-5AFDE4897A7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1641D695-F615-4907-B494-5AFDE4897A7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1641D695-F615-4907-B494-5AFDE4897A7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

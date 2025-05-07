@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    "net8.0-windows7.0": {}
+    "net8.0-windows7.0": {
+      "DayZLootEditor/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/DayZLootEditor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DayZLootEditor.dll": {}
+        }
+      },
+      "WeatherEditor/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/WeatherEditor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WeatherEditor.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "DayZLootEditor/1.0.0": {
+      "type": "project",
+      "path": "../../DayZ-Spawn-Editor-Git-Repo/DayZLootEditor/DayZLootEditor.csproj",
+      "msbuildProject": "../../DayZ-Spawn-Editor-Git-Repo/DayZLootEditor/DayZLootEditor.csproj"
+    },
+    "WeatherEditor/1.0.0": {
+      "type": "project",
+      "path": "../WeatherEditor/WeatherEditor.csproj",
+      "msbuildProject": "../WeatherEditor/WeatherEditor.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0-windows7.0": []
+    "net8.0-windows7.0": [
+      "DayZLootEditor >= 1.0.0",
+      "WeatherEditor >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Spart\\.nuget\\packages\\": {},
@@ -39,7 +76,14 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Spart\\Desktop\\Dayz\\DayZ-Spawn-Editor-Git-Repo\\DayZLootEditor\\DayZLootEditor.csproj": {
+              "projectPath": "C:\\Users\\Spart\\Desktop\\Dayz\\DayZ-Spawn-Editor-Git-Repo\\DayZLootEditor\\DayZLootEditor.csproj"
+            },
+            "C:\\Users\\Spart\\Desktop\\Dayz\\DayZ_Tool\\WeatherEditor\\WeatherEditor.csproj": {
+              "projectPath": "C:\\Users\\Spart\\Desktop\\Dayz\\DayZ_Tool\\WeatherEditor\\WeatherEditor.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

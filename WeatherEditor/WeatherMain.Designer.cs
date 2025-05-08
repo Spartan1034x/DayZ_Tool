@@ -233,6 +233,10 @@
             label60 = new Label();
             picHelpStormDensity = new PictureBox();
             label69 = new Label();
+            lnkRadians = new LinkLabel();
+            lnkDocumentation = new LinkLabel();
+            lnkOverview = new LinkLabel();
+            btnDefault = new Button();
             tabControl1.SuspendLayout();
             tabOvercast.SuspendLayout();
             groupBox4.SuspendLayout();
@@ -365,7 +369,7 @@
             // btnLoad
             // 
             btnLoad.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnLoad.Location = new Point(329, 734);
+            btnLoad.Location = new Point(601, 711);
             btnLoad.Name = "btnLoad";
             btnLoad.Size = new Size(202, 44);
             btnLoad.TabIndex = 0;
@@ -396,7 +400,7 @@
             // btnSave
             // 
             btnSave.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnSave.Location = new Point(637, 734);
+            btnSave.Location = new Point(880, 711);
             btnSave.Name = "btnSave";
             btnSave.Size = new Size(202, 44);
             btnSave.TabIndex = 3;
@@ -408,7 +412,7 @@
             // 
             chkReset.AutoSize = true;
             chkReset.Font = new Font("Segoe UI", 12F);
-            chkReset.Location = new Point(106, 100);
+            chkReset.Location = new Point(106, 72);
             chkReset.Name = "chkReset";
             chkReset.Size = new Size(312, 32);
             chkReset.TabIndex = 4;
@@ -421,7 +425,7 @@
             chkEnable.Checked = true;
             chkEnable.CheckState = CheckState.Checked;
             chkEnable.Font = new Font("Segoe UI", 12F);
-            chkEnable.Location = new Point(713, 100);
+            chkEnable.Location = new Point(713, 72);
             chkEnable.Name = "chkEnable";
             chkEnable.Size = new Size(228, 32);
             chkEnable.TabIndex = 5;
@@ -449,7 +453,7 @@
             tabControl1.Controls.Add(tabSnow);
             tabControl1.Controls.Add(tabStorm);
             tabControl1.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            tabControl1.Location = new Point(12, 156);
+            tabControl1.Location = new Point(12, 128);
             tabControl1.Name = "tabControl1";
             tabControl1.SelectedIndex = 0;
             tabControl1.Size = new Size(1098, 540);
@@ -1787,7 +1791,7 @@
             // nudWindMagCurrentActual
             // 
             nudWindMagCurrentActual.DecimalPlaces = 1;
-            nudWindMagCurrentActual.Increment = new decimal(new int[] { 1, 0, 0, 131072 });
+            nudWindMagCurrentActual.Increment = new decimal(new int[] { 1, 0, 0, 65536 });
             nudWindMagCurrentActual.Location = new Point(63, 74);
             nudWindMagCurrentActual.Maximum = new decimal(new int[] { 1000, 0, 0, 0 });
             nudWindMagCurrentActual.Name = "nudWindMagCurrentActual";
@@ -1893,7 +1897,8 @@
             nudWindDirChangeMin.DecimalPlaces = 1;
             nudWindDirChangeMin.Increment = new decimal(new int[] { 1, 0, 0, 131072 });
             nudWindDirChangeMin.Location = new Point(62, 91);
-            nudWindDirChangeMin.Minimum = new decimal(new int[] { 100, 0, 0, int.MinValue });
+            nudWindDirChangeMin.Maximum = new decimal(new int[] { 3144, 0, 0, 196608 });
+            nudWindDirChangeMin.Minimum = new decimal(new int[] { 3144, 0, 0, -2147287040 });
             nudWindDirChangeMin.Name = "nudWindDirChangeMin";
             nudWindDirChangeMin.Size = new Size(81, 34);
             nudWindDirChangeMin.TabIndex = 12;
@@ -2018,8 +2023,8 @@
             nudWindDirLimitsMax.DecimalPlaces = 2;
             nudWindDirLimitsMax.Increment = new decimal(new int[] { 1, 0, 0, 131072 });
             nudWindDirLimitsMax.Location = new Point(35, 192);
-            nudWindDirLimitsMax.Maximum = new decimal(new int[] { 1000, 0, 0, 0 });
-            nudWindDirLimitsMax.Minimum = new decimal(new int[] { 1000, 0, 0, int.MinValue });
+            nudWindDirLimitsMax.Maximum = new decimal(new int[] { 314, 0, 0, 131072 });
+            nudWindDirLimitsMax.Minimum = new decimal(new int[] { 314, 0, 0, -2147352576 });
             nudWindDirLimitsMax.Name = "nudWindDirLimitsMax";
             nudWindDirLimitsMax.Size = new Size(132, 34);
             nudWindDirLimitsMax.TabIndex = 9;
@@ -2030,8 +2035,8 @@
             nudWindDirLimitsMin.DecimalPlaces = 2;
             nudWindDirLimitsMin.Increment = new decimal(new int[] { 1, 0, 0, 131072 });
             nudWindDirLimitsMin.Location = new Point(61, 91);
-            nudWindDirLimitsMin.Maximum = new decimal(new int[] { 1000, 0, 0, 0 });
-            nudWindDirLimitsMin.Minimum = new decimal(new int[] { 1000, 0, 0, int.MinValue });
+            nudWindDirLimitsMin.Maximum = new decimal(new int[] { 314, 0, 0, 131072 });
+            nudWindDirLimitsMin.Minimum = new decimal(new int[] { 314, 0, 0, -2147352576 });
             nudWindDirLimitsMin.Name = "nudWindDirLimitsMin";
             nudWindDirLimitsMin.Size = new Size(81, 34);
             nudWindDirLimitsMin.TabIndex = 8;
@@ -2107,10 +2112,11 @@
             // 
             // nudWindDirCurrentActual
             // 
-            nudWindDirCurrentActual.DecimalPlaces = 1;
+            nudWindDirCurrentActual.DecimalPlaces = 2;
             nudWindDirCurrentActual.Increment = new decimal(new int[] { 1, 0, 0, 131072 });
             nudWindDirCurrentActual.Location = new Point(63, 74);
-            nudWindDirCurrentActual.Maximum = new decimal(new int[] { 1000, 0, 0, 0 });
+            nudWindDirCurrentActual.Maximum = new decimal(new int[] { 3144, 0, 0, 196608 });
+            nudWindDirCurrentActual.Minimum = new decimal(new int[] { 3144, 0, 0, -2147287040 });
             nudWindDirCurrentActual.Name = "nudWindDirCurrentActual";
             nudWindDirCurrentActual.Size = new Size(81, 34);
             nudWindDirCurrentActual.TabIndex = 3;
@@ -2590,6 +2596,8 @@
             // 
             // picHelpStormTimeout
             // 
+            picHelpStormTimeout.BackColor = Color.Transparent;
+            picHelpStormTimeout.Cursor = Cursors.Help;
             picHelpStormTimeout.Image = (Image)resources.GetObject("picHelpStormTimeout.Image");
             picHelpStormTimeout.InitialImage = null;
             picHelpStormTimeout.Location = new Point(718, 54);
@@ -2598,10 +2606,11 @@
             picHelpStormTimeout.SizeMode = PictureBoxSizeMode.Zoom;
             picHelpStormTimeout.TabIndex = 19;
             picHelpStormTimeout.TabStop = false;
-            picHelpStormTimeout.Click += picHelpStormTimeout_Click;
             // 
             // picHelpStormThreshold
             // 
+            picHelpStormThreshold.BackColor = Color.Transparent;
+            picHelpStormThreshold.Cursor = Cursors.Help;
             picHelpStormThreshold.Image = (Image)resources.GetObject("picHelpStormThreshold.Image");
             picHelpStormThreshold.InitialImage = null;
             picHelpStormThreshold.Location = new Point(460, 54);
@@ -2610,7 +2619,6 @@
             picHelpStormThreshold.SizeMode = PictureBoxSizeMode.Zoom;
             picHelpStormThreshold.TabIndex = 18;
             picHelpStormThreshold.TabStop = false;
-            picHelpStormThreshold.Click += picHelpStormThreshold_Click;
             // 
             // nudStormTimeout
             // 
@@ -2667,23 +2675,24 @@
             // 
             label60.AutoSize = true;
             label60.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold);
-            label60.Location = new Point(96, 53);
+            label60.Location = new Point(49, 54);
             label60.Name = "label60";
-            label60.Size = new Size(85, 28);
+            label60.Size = new Size(178, 28);
             label60.TabIndex = 12;
-            label60.Text = "Density:";
+            label60.Text = "Lightning Density:";
             // 
             // picHelpStormDensity
             // 
+            picHelpStormDensity.BackColor = Color.Transparent;
+            picHelpStormDensity.Cursor = Cursors.Help;
             picHelpStormDensity.Image = (Image)resources.GetObject("picHelpStormDensity.Image");
             picHelpStormDensity.InitialImage = null;
-            picHelpStormDensity.Location = new Point(187, 54);
+            picHelpStormDensity.Location = new Point(233, 55);
             picHelpStormDensity.Name = "picHelpStormDensity";
             picHelpStormDensity.Size = new Size(24, 27);
             picHelpStormDensity.SizeMode = PictureBoxSizeMode.Zoom;
             picHelpStormDensity.TabIndex = 8;
             picHelpStormDensity.TabStop = false;
-            picHelpStormDensity.Click += picHelpStormDensity_Click;
             // 
             // label69
             // 
@@ -2695,11 +2704,63 @@
             label69.TabIndex = 7;
             label69.Text = "Storm";
             // 
+            // lnkRadians
+            // 
+            lnkRadians.AutoSize = true;
+            lnkRadians.Font = new Font("Segoe UI", 10.2F);
+            lnkRadians.Location = new Point(20, 722);
+            lnkRadians.Name = "lnkRadians";
+            lnkRadians.Size = new Size(109, 23);
+            lnkRadians.TabIndex = 11;
+            lnkRadians.TabStop = true;
+            lnkRadians.Text = "Radians Help";
+            lnkRadians.LinkClicked += lnkRadians_LinkClicked;
+            // 
+            // lnkDocumentation
+            // 
+            lnkDocumentation.AutoSize = true;
+            lnkDocumentation.Cursor = Cursors.Hand;
+            lnkDocumentation.Font = new Font("Segoe UI", 10.2F);
+            lnkDocumentation.Location = new Point(20, 760);
+            lnkDocumentation.Name = "lnkDocumentation";
+            lnkDocumentation.Size = new Size(230, 23);
+            lnkDocumentation.TabIndex = 8;
+            lnkDocumentation.TabStop = true;
+            lnkDocumentation.Text = "Official DayZ Documentation";
+            lnkDocumentation.LinkClicked += lnkDocumentation_LinkClicked;
+            // 
+            // lnkOverview
+            // 
+            lnkOverview.AutoSize = true;
+            lnkOverview.Font = new Font("Segoe UI", 10.2F);
+            lnkOverview.Location = new Point(20, 684);
+            lnkOverview.Name = "lnkOverview";
+            lnkOverview.Size = new Size(148, 23);
+            lnkOverview.TabIndex = 12;
+            lnkOverview.TabStop = true;
+            lnkOverview.Text = "Weather Overview";
+            lnkOverview.LinkClicked += lnkOverview_LinkClicked;
+            // 
+            // btnDefault
+            // 
+            btnDefault.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnDefault.Location = new Point(322, 711);
+            btnDefault.Name = "btnDefault";
+            btnDefault.Size = new Size(202, 44);
+            btnDefault.TabIndex = 13;
+            btnDefault.Text = "&Vanilla Settings";
+            btnDefault.UseVisualStyleBackColor = true;
+            btnDefault.Click += btnDefault_Click;
+            // 
             // WeatherMain
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1122, 855);
+            Controls.Add(btnDefault);
+            Controls.Add(lnkOverview);
+            Controls.Add(lnkRadians);
+            Controls.Add(lnkDocumentation);
             Controls.Add(tabControl1);
             Controls.Add(label2);
             Controls.Add(chkEnable);
@@ -2710,6 +2771,7 @@
             Controls.Add(btnLoad);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Icon = (Icon)resources.GetObject("$this.Icon");
+            MaximizeBox = false;
             Name = "WeatherMain";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Weather Editor";
@@ -3085,5 +3147,9 @@
         private PictureBox picHelpStormDensity;
         private PictureBox picHelpStormTimeout;
         private PictureBox picHelpStormThreshold;
+        private LinkLabel lnkDocumentation;
+        private LinkLabel lnkRadians;
+        private LinkLabel lnkOverview;
+        private Button btnDefault;
     }
 }

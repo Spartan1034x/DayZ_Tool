@@ -1,3 +1,4 @@
+using System.Diagnostics;
 using System.Xml.Serialization;
 
 namespace WeatherEditor
@@ -42,7 +43,12 @@ namespace WeatherEditor
             {
                 if (control is PictureBox pictureBox)
                 {
-                    pictureBox.Cursor = Cursors.Hand; // Set the cursor to hand pointer
+                    if (pictureBox.Name.Contains("picHelpStormDensity") || pictureBox.Name.Contains("picHelpStormThreshold") || pictureBox.Name.Contains("picHelpStormTimeout"))
+                    {
+                        pictureBox.Cursor = Cursors.Help;
+                    }
+                    else
+                        pictureBox.Cursor = Cursors.Hand; // Set the cursor to hand pointer
                 }
                 else if (control.HasChildren)
                 {
@@ -66,6 +72,16 @@ namespace WeatherEditor
             toolTip.SetToolTip(chkEnable, "Enables reading from cfgweather.xml, leave enabled");
             toolTip.SetToolTip(btnLoad, "Load a weather XML file");
             toolTip.SetToolTip(btnSave, "Save the weather data to an XML file");
+
+            // Create tooltips for the help buttons
+            toolTip.SetToolTip(lnkDocumentation, "https://community.bistudio.com/wiki/DayZ:Weather_Configuration");
+
+            // Tooltip for info icons storm page
+            toolTip.SetToolTip(picHelpStormDensity, "Value from 0.0 (no lightning) to 1.0 (maximum lightning frequency)");
+            toolTip.SetToolTip(picHelpStormTimeout, "Time between lightning strikes (in seconds)");
+            toolTip.SetToolTip(picHelpStormThreshold, "Overcast level at which lightning starts to occur e.g. If threshold=\"0.7\", lightning only appears when overcast is 70% or higher");
+
+
         } // End of CreateToolTips
 
 
@@ -105,7 +121,7 @@ namespace WeatherEditor
         //              POPULATE INPUTS
         //
         //
-        // Populates the inputs with the local weather object that is populated with the loaded XML data
+        // Populates the inputs with the local weather object that is populated with the loaded XML data, or the default values if Vannilla is clicked
         private void PopulateInputs()
         {
             if (loadedWeather == null)
@@ -236,7 +252,7 @@ namespace WeatherEditor
 
         //              SAVE BUTTON CLICK
         //
-        // Saves the weather data to an XML file
+        // Creates a new weather object from inputs, gets file save path then calls XML helper to sserialize and save the XML
         private void btnSave_Click(object sender, EventArgs e)
         {
             using (SaveFileDialog sfd = new SaveFileDialog())
@@ -438,5 +454,64 @@ namespace WeatherEditor
             }
         }
 
+
+
+        //               OFFICIAL HELP BUTTON CLICK
+        //
+        //
+        // Opens the official DayZ wiki page for weather configuration
+        private void lnkDocumentation_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            lnkDocumentation.LinkVisited = true; // Mark the link as visited
+
+            Process.Start(new ProcessStartInfo
+            {
+                FileName = "https://community.bistudio.com/wiki/DayZ:Weather_Configuration",
+                UseShellExecute = true
+            });
+        }
+
+
+
+        //              HELP BUTTON CLICK RADIANS
+        //
+        // Opens the RadiansHelp form
+        private void lnkRadians_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            RadiansHelp form = new RadiansHelp();
+            form.Show();
+            lnkRadians.LinkVisited = true; // Mark the link as visited
+        }
+
+
+
+        //              HELP BUTTON CLICK OVERVIEW
+        //
+        // Opens the Overview form
+        private void lnkOverview_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Overview form = new Overview();
+            form.Show();
+            lnkOverview.LinkVisited = true; // Mark the link as visited
+        }
+
+
+
+
+        //              DEFAULT WEATHER BUTTON CLICK
+        //
+        //
+        // Resets back to vanilla values
+        private void btnDefault_Click(object sender, EventArgs e)
+        {
+            DialogResult dia = MessageBox.Show("Are you sure you want to reset to default values?", "Reset to Default", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+
+            if (dia == DialogResult.Yes)
+            {
+                loadedWeather = XMLOperations.VanillaWeather; // Set the loaded weather to the default values
+                PopulateInputs(); // Populate the inputs with the default values
+            }
+
+        }
     }
 }

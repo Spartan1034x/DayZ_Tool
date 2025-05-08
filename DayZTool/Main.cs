@@ -25,12 +25,13 @@ namespace DayZTool
 
 
 
+        //                 INITIALIZE CONTROLS
         //
         //
-        //
-        //
+        // Initializes the controls on the form, including buttons and labels
         private void InitializeControls()
         {
+            // BUTTONS
             // Create button for Loot Editor
             CreateButton("btnLootEditor", "Spawn Loot Editor", 152, 459, (s, e) => { 
                 if (lootEditorForm.IsDisposed)
@@ -56,6 +57,7 @@ namespace DayZTool
             // Create button for ...
             CreateButton("tbd1", "Coming Soon...", 917, 459, (s, e) => { /* Event handler here */ MessageBox.Show("Coming Soon!", "Info", MessageBoxButtons.OK, MessageBoxIcon.Asterisk); });
 
+            // LABEL
             // Create Label
             RotatedLabel label = new RotatedLabel
             {
@@ -69,6 +71,11 @@ namespace DayZTool
             };
 
             this.Controls.Add(label);
+
+            // TOOLTIP
+            ToolTip toolTip = new ToolTip();
+            toolTip.SetToolTip(lnkPicCredit, "https://www.deviantart.com/suzuki88/art/DayZ-screenshot-wallpapers-326440177");
+            toolTip.SetToolTip(lnkProgram, "https://github.com/Spartan1034x");
         }
         //
         // Creates a button with the specified properties and adds it to the form.

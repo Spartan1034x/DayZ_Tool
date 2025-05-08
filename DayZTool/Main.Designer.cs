@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
             lnkPicCredit = new LinkLabel();
-            linkLabel1 = new LinkLabel();
+            lnkProgram = new LinkLabel();
             SuspendLayout();
             // 
             // lnkPicCredit
@@ -48,20 +48,20 @@
             lnkPicCredit.Text = "Art: suzuki88";
             lnkPicCredit.LinkClicked += lnkPicCredit_LinkClicked;
             // 
-            // linkLabel1
+            // lnkProgram
             // 
-            linkLabel1.AutoSize = true;
-            linkLabel1.BackColor = Color.Transparent;
-            linkLabel1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            linkLabel1.LinkBehavior = LinkBehavior.HoverUnderline;
-            linkLabel1.LinkColor = Color.FromArgb(128, 128, 255);
-            linkLabel1.Location = new Point(1029, 640);
-            linkLabel1.Name = "linkLabel1";
-            linkLabel1.Size = new Size(163, 28);
-            linkLabel1.TabIndex = 1;
-            linkLabel1.TabStop = true;
-            linkLabel1.Text = "By: Spartan1034x";
-            linkLabel1.LinkClicked += linkLabel1_LinkClicked;
+            lnkProgram.AutoSize = true;
+            lnkProgram.BackColor = Color.Transparent;
+            lnkProgram.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lnkProgram.LinkBehavior = LinkBehavior.HoverUnderline;
+            lnkProgram.LinkColor = Color.FromArgb(128, 128, 255);
+            lnkProgram.Location = new Point(1029, 640);
+            lnkProgram.Name = "lnkProgram";
+            lnkProgram.Size = new Size(163, 28);
+            lnkProgram.TabIndex = 1;
+            lnkProgram.TabStop = true;
+            lnkProgram.Text = "By: Spartan1034x";
+            lnkProgram.LinkClicked += linkLabel1_LinkClicked;
             // 
             // Home
             // 
@@ -70,10 +70,11 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Zoom;
             ClientSize = new Size(1204, 677);
-            Controls.Add(linkLabel1);
+            Controls.Add(lnkProgram);
             Controls.Add(lnkPicCredit);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Icon = (Icon)resources.GetObject("$this.Icon");
+            MaximizeBox = false;
             Name = "Home";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "DayZ Tool";
@@ -85,6 +86,6 @@
         #endregion
 
         private LinkLabel lnkPicCredit;
-        private LinkLabel linkLabel1;
+        private LinkLabel lnkProgram;
     }
 }

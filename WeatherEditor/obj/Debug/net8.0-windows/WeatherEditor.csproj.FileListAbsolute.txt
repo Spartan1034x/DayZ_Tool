@@ -13,3 +13,5 @@ C:\Users\Spart\Desktop\Dayz\DayZ_Tool\WeatherEditor\obj\Debug\net8.0-windows\ref
 C:\Users\Spart\Desktop\Dayz\DayZ_Tool\WeatherEditor\obj\Debug\net8.0-windows\WeatherEditor.pdb
 C:\Users\Spart\Desktop\Dayz\DayZ_Tool\WeatherEditor\obj\Debug\net8.0-windows\ref\WeatherEditor.dll
 C:\Users\Spart\Desktop\Dayz\DayZ_Tool\WeatherEditor\obj\Debug\net8.0-windows\WeatherEditor.Properties.Resources.resources
+C:\Users\Spart\Desktop\Dayz\DayZ_Tool\WeatherEditor\obj\Debug\net8.0-windows\WeatherEditor.RadiansHelp.resources
+C:\Users\Spart\Desktop\Dayz\DayZ_Tool\WeatherEditor\obj\Debug\net8.0-windows\WeatherEditor.Overview.resources

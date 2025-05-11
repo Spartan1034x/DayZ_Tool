@@ -9,6 +9,7 @@
       "DayZTool/1.0.0": {
         "dependencies": {
           "DayZLootEditor": "1.0.0",
+          "GlobalsEditor": "1.0.0",
           "WeatherEditor": "1.0.0"
         },
         "runtime": {
@@ -18,6 +19,14 @@
       "DayZLootEditor/1.0.0": {
         "runtime": {
           "DayZLootEditor.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "GlobalsEditor/1.0.0": {
+        "runtime": {
+          "GlobalsEditor.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -48,6 +57,11 @@
       "sha512": ""
     },
     "DayZLootEditor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GlobalsEditor/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

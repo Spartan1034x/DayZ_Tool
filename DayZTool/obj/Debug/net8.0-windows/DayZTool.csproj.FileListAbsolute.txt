@@ -25,3 +25,8 @@ C:\Users\Spart\Desktop\Dayz\DayZ_Tool\DayZTool\bin\Debug\net8.0-windows\DayZLoot
 C:\Users\Spart\Desktop\Dayz\DayZ_Tool\DayZTool\bin\Debug\net8.0-windows\DayZLootEditor.dll.config
 C:\Users\Spart\Desktop\Dayz\DayZ_Tool\DayZTool\bin\Debug\net8.0-windows\WeatherEditor.dll
 C:\Users\Spart\Desktop\Dayz\DayZ_Tool\DayZTool\bin\Debug\net8.0-windows\WeatherEditor.pdb
+C:\Users\Spart\Desktop\Dayz\DayZ_Tool\DayZTool\bin\Debug\net8.0-windows\GlobalsEditor.deps.json
+C:\Users\Spart\Desktop\Dayz\DayZ_Tool\DayZTool\bin\Debug\net8.0-windows\GlobalsEditor.runtimeconfig.json
+C:\Users\Spart\Desktop\Dayz\DayZ_Tool\DayZTool\bin\Debug\net8.0-windows\GlobalsEditor.exe
+C:\Users\Spart\Desktop\Dayz\DayZ_Tool\DayZTool\bin\Debug\net8.0-windows\GlobalsEditor.dll
+C:\Users\Spart\Desktop\Dayz\DayZ_Tool\DayZTool\bin\Debug\net8.0-windows\GlobalsEditor.pdb

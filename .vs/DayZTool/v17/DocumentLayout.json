@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Spart\\Desktop\\Dayz\\DayZ_Tool\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1641D695-F615-4907-B494-5AFDE4897A7A}|WeatherEditor\\WeatherEditor.csproj|c:\\users\\spart\\desktop\\dayz\\dayz_tool\\weathereditor\\xmloperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1641D695-F615-4907-B494-5AFDE4897A7A}|WeatherEditor\\WeatherEditor.csproj|solutionrelative:weathereditor\\xmloperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{23404679-AC6D-4F52-8103-6A636F785606}|GlobalsEditor\\GlobalsEditor.csproj|c:\\users\\spart\\desktop\\dayz\\dayz_tool\\globalseditor\\globalsmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{23404679-AC6D-4F52-8103-6A636F785606}|GlobalsEditor\\GlobalsEditor.csproj|solutionrelative:globalseditor\\globalsmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1641D695-F615-4907-B494-5AFDE4897A7A}|WeatherEditor\\WeatherEditor.csproj|c:\\users\\spart\\desktop\\dayz\\dayz_tool\\weathereditor\\weathermain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1641D695-F615-4907-B494-5AFDE4897A7A}|WeatherEditor\\WeatherEditor.csproj|solutionrelative:weathereditor\\weathermain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1641D695-F615-4907-B494-5AFDE4897A7A}|WeatherEditor\\WeatherEditor.csproj|c:\\users\\spart\\desktop\\dayz\\dayz_tool\\weathereditor\\weathermain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1641D695-F615-4907-B494-5AFDE4897A7A}|WeatherEditor\\WeatherEditor.csproj|solutionrelative:weathereditor\\weathermain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{23404679-AC6D-4F52-8103-6A636F785606}|GlobalsEditor\\GlobalsEditor.csproj|c:\\users\\spart\\desktop\\dayz\\dayz_tool\\globalseditor\\globalsmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23404679-AC6D-4F52-8103-6A636F785606}|GlobalsEditor\\GlobalsEditor.csproj|solutionrelative:globalseditor\\globalsmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,39 +31,26 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "XMLOperations.cs",
-              "DocumentMoniker": "C:\\Users\\Spart\\Desktop\\Dayz\\DayZ_Tool\\WeatherEditor\\XMLOperations.cs",
-              "RelativeDocumentMoniker": "WeatherEditor\\XMLOperations.cs",
-              "ToolTip": "C:\\Users\\Spart\\Desktop\\Dayz\\DayZ_Tool\\WeatherEditor\\XMLOperations.cs",
-              "RelativeToolTip": "WeatherEditor\\XMLOperations.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACYAAAAUAAAAAAAAAA==",
+              "Title": "GlobalsMain.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Spart\\Desktop\\Dayz\\DayZ_Tool\\GlobalsEditor\\GlobalsMain.cs",
+              "RelativeDocumentMoniker": "GlobalsEditor\\GlobalsMain.cs",
+              "ToolTip": "C:\\Users\\Spart\\Desktop\\Dayz\\DayZ_Tool\\GlobalsEditor\\GlobalsMain.cs [Design]",
+              "RelativeToolTip": "GlobalsEditor\\GlobalsMain.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T16:11:03.952Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "WeatherMain.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Spart\\Desktop\\Dayz\\DayZ_Tool\\WeatherEditor\\WeatherMain.cs",
-              "RelativeDocumentMoniker": "WeatherEditor\\WeatherMain.cs",
-              "ToolTip": "C:\\Users\\Spart\\Desktop\\Dayz\\DayZ_Tool\\WeatherEditor\\WeatherMain.cs [Design]",
-              "RelativeToolTip": "WeatherEditor\\WeatherMain.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T13:10:13.048Z",
+              "WhenOpened": "2025-05-11T00:22:50.405Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "WeatherMain.cs",
-              "DocumentMoniker": "C:\\Users\\Spart\\Desktop\\Dayz\\DayZ_Tool\\WeatherEditor\\WeatherMain.cs",
-              "RelativeDocumentMoniker": "WeatherEditor\\WeatherMain.cs",
-              "ToolTip": "C:\\Users\\Spart\\Desktop\\Dayz\\DayZ_Tool\\WeatherEditor\\WeatherMain.cs",
-              "RelativeToolTip": "WeatherEditor\\WeatherMain.cs",
-              "ViewState": "AgIAANoBAAAAAAAAAAAAAP8BAABQAAAAAAAAAA==",
+              "Title": "GlobalsMain.cs",
+              "DocumentMoniker": "C:\\Users\\Spart\\Desktop\\Dayz\\DayZ_Tool\\GlobalsEditor\\GlobalsMain.cs",
+              "RelativeDocumentMoniker": "GlobalsEditor\\GlobalsMain.cs",
+              "ToolTip": "C:\\Users\\Spart\\Desktop\\Dayz\\DayZ_Tool\\GlobalsEditor\\GlobalsMain.cs",
+              "RelativeToolTip": "GlobalsEditor\\GlobalsMain.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAADwv1gAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T12:46:16.646Z",
+              "WhenOpened": "2025-05-11T00:22:01.713Z",
               "EditorCaption": ""
             }
           ]

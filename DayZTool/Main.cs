@@ -1,6 +1,7 @@
 using System.Diagnostics;
 using DayZLootEditor;
 using WeatherEditor;
+using GlobalsEditor;
 
 namespace DayZTool
 {
@@ -8,6 +9,7 @@ namespace DayZTool
     {
         frmMain lootEditorForm;
         WeatherMain weatherEditorForm;
+        MainGlobals globalEditorForm;
 
         public Home()
         {
@@ -15,6 +17,7 @@ namespace DayZTool
             // Initialize the forms
             lootEditorForm = new frmMain();
             weatherEditorForm = new WeatherMain();
+            globalEditorForm = new MainGlobals();
         }
 
 
@@ -52,7 +55,13 @@ namespace DayZTool
             });
 
             // Create button for ...
-            CreateButton("tbd", "Coming Soon...", 662, 459, (s, e) => { /* Event handler here */ MessageBox.Show("Coming Soon!", "Info", MessageBoxButtons.OK, MessageBoxIcon.Asterisk); });
+            CreateButton("btnGlobalsEditor", "Globals Editor", 662, 459, (s, e) => {
+                if (globalEditorForm.IsDisposed)
+                {
+                    globalEditorForm = new MainGlobals();
+                }
+                globalEditorForm.Show();
+            });
 
             // Create button for ...
             CreateButton("tbd1", "Coming Soon...", 917, 459, (s, e) => { /* Event handler here */ MessageBox.Show("Coming Soon!", "Info", MessageBoxButtons.OK, MessageBoxIcon.Asterisk); });

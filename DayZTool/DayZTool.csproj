@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\DayZ-Spawn-Editor-Git-Repo\DayZLootEditor\DayZLootEditor.csproj" />
+    <ProjectReference Include="..\GlobalsEditor\GlobalsEditor.csproj" />
     <ProjectReference Include="..\WeatherEditor\WeatherEditor.csproj" />
   </ItemGroup>
 

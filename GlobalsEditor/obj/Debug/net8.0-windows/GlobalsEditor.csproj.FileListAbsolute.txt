@@ -1,0 +1,17 @@
+C:\Users\Spart\Desktop\Dayz\DayZ_Tool\GlobalsEditor\bin\Debug\net8.0-windows\GlobalsEditor.exe
+C:\Users\Spart\Desktop\Dayz\DayZ_Tool\GlobalsEditor\bin\Debug\net8.0-windows\GlobalsEditor.deps.json
+C:\Users\Spart\Desktop\Dayz\DayZ_Tool\GlobalsEditor\bin\Debug\net8.0-windows\GlobalsEditor.runtimeconfig.json
+C:\Users\Spart\Desktop\Dayz\DayZ_Tool\GlobalsEditor\bin\Debug\net8.0-windows\GlobalsEditor.dll
+C:\Users\Spart\Desktop\Dayz\DayZ_Tool\GlobalsEditor\bin\Debug\net8.0-windows\GlobalsEditor.pdb
+C:\Users\Spart\Desktop\Dayz\DayZ_Tool\GlobalsEditor\obj\Debug\net8.0-windows\GlobalsEditor.MainGlobals.resources
+C:\Users\Spart\Desktop\Dayz\DayZ_Tool\GlobalsEditor\obj\Debug\net8.0-windows\GlobalsEditor.csproj.GenerateResource.cache
+C:\Users\Spart\Desktop\Dayz\DayZ_Tool\GlobalsEditor\obj\Debug\net8.0-windows\GlobalsEditor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Spart\Desktop\Dayz\DayZ_Tool\GlobalsEditor\obj\Debug\net8.0-windows\GlobalsEditor.AssemblyInfoInputs.cache
+C:\Users\Spart\Desktop\Dayz\DayZ_Tool\GlobalsEditor\obj\Debug\net8.0-windows\GlobalsEditor.AssemblyInfo.cs
+C:\Users\Spart\Desktop\Dayz\DayZ_Tool\GlobalsEditor\obj\Debug\net8.0-windows\GlobalsEditor.csproj.CoreCompileInputs.cache
+C:\Users\Spart\Desktop\Dayz\DayZ_Tool\GlobalsEditor\obj\Debug\net8.0-windows\GlobalsEditor.sourcelink.json
+C:\Users\Spart\Desktop\Dayz\DayZ_Tool\GlobalsEditor\obj\Debug\net8.0-windows\GlobalsEditor.dll
+C:\Users\Spart\Desktop\Dayz\DayZ_Tool\GlobalsEditor\obj\Debug\net8.0-windows\refint\GlobalsEditor.dll
+C:\Users\Spart\Desktop\Dayz\DayZ_Tool\GlobalsEditor\obj\Debug\net8.0-windows\GlobalsEditor.pdb
+C:\Users\Spart\Desktop\Dayz\DayZ_Tool\GlobalsEditor\obj\Debug\net8.0-windows\GlobalsEditor.genruntimeconfig.cache
+C:\Users\Spart\Desktop\Dayz\DayZ_Tool\GlobalsEditor\obj\Debug\net8.0-windows\ref\GlobalsEditor.dll

@@ -11,6 +11,19 @@
           "bin/placeholder/DayZLootEditor.dll": {}
         }
       },
+      "GlobalsEditor/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/GlobalsEditor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GlobalsEditor.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
       "WeatherEditor/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -32,6 +45,11 @@
       "path": "../../DayZ-Spawn-Editor-Git-Repo/DayZLootEditor/DayZLootEditor.csproj",
       "msbuildProject": "../../DayZ-Spawn-Editor-Git-Repo/DayZLootEditor/DayZLootEditor.csproj"
     },
+    "GlobalsEditor/1.0.0": {
+      "type": "project",
+      "path": "../GlobalsEditor/GlobalsEditor.csproj",
+      "msbuildProject": "../GlobalsEditor/GlobalsEditor.csproj"
+    },
     "WeatherEditor/1.0.0": {
       "type": "project",
       "path": "../WeatherEditor/WeatherEditor.csproj",
@@ -41,6 +59,7 @@
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
       "DayZLootEditor >= 1.0.0",
+      "GlobalsEditor >= 1.0.0",
       "WeatherEditor >= 1.0.0"
     ]
   },
@@ -79,6 +98,9 @@
           "projectReferences": {
             "C:\\Users\\Spart\\Desktop\\Dayz\\DayZ-Spawn-Editor-Git-Repo\\DayZLootEditor\\DayZLootEditor.csproj": {
               "projectPath": "C:\\Users\\Spart\\Desktop\\Dayz\\DayZ-Spawn-Editor-Git-Repo\\DayZLootEditor\\DayZLootEditor.csproj"
+            },
+            "C:\\Users\\Spart\\Desktop\\Dayz\\DayZ_Tool\\GlobalsEditor\\GlobalsEditor.csproj": {
+              "projectPath": "C:\\Users\\Spart\\Desktop\\Dayz\\DayZ_Tool\\GlobalsEditor\\GlobalsEditor.csproj"
             },
             "C:\\Users\\Spart\\Desktop\\Dayz\\DayZ_Tool\\WeatherEditor\\WeatherEditor.csproj": {
               "projectPath": "C:\\Users\\Spart\\Desktop\\Dayz\\DayZ_Tool\\WeatherEditor\\WeatherEditor.csproj"
